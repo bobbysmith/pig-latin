@@ -19,7 +19,7 @@ describe 'PigLatin' do
     end
 
     it "returns a word with y inside word to keep y at the front" do
-      expect(PigLatin.translate("rhythm")).to eq("ythmrhay")
+      expect(PigLatin.translate("plywood")).to eq("ywoodplay")
     end
 
   end
