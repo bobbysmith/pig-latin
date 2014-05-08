@@ -3,7 +3,7 @@ require "pig_latin/version"
 module PigLatin
   def self.translate(word)
 
-    word_length = word.length - 1
+    word_length = ((word.length) - 1)
 
     if /\A[aeiou]/i.match(word)
       word +"way"
